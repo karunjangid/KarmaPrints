@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding:3px;
+  background-color: #f4f4f4;
+}
+.cta-button {
+  padding: 10px 20px;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #0044cc;
+}
+
+h1 {
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.heading{
+  color: #0066ff;
+}
+.home{
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-items: center;
+}
+/* src/components/Banner.css */
+.banner {
+  text-align: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.companies {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.companies span {
+  background: #61dafb;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+/* For devices with a maximum width of 320px */
+@media (max-width: 320px) {
+  body {
+    font-size: 12px; /* Smaller font size for readability */
+  }
+  .cta-button {
+    padding: 8px 16px; /* Adjust button padding */
+    font-size: 14px; /* Smaller button text */
+  }
+  .banner {
+    padding: 10px; /* Reduce banner padding */
+  }
+}
+
+/* For devices with a maximum width of 375px */
+@media (max-width: 375px) {
+  body {
+    font-size: 13px; /* Slightly larger font size */
+  }
+  .cta-button {
+    padding: 9px 18px; /* Adjust button padding */
+    font-size: 15px; /* Adjust button text size */
+  }
+  .banner {
+    padding: 15px; /* Adjust banner padding */
+  }
+}
+
+/* For devices with a maximum width of 425px */
+@media (max-width: 425px) {
+  body {
+    font-size: 14px; /* Maintain font size */
+  }
+  .cta-button {
+    padding: 10px 20px; /* Maintain button padding */
+    font-size: 16px; /* Maintain button text size */
+  }
+  .banner {
+    padding: 20px; /* Maintain banner padding */
+  }
+}
+
+/* For devices with a maximum width of 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px; /* Increase font size for better readability */
+  }
+  .cta-button {
+    padding: 12px 24px; /* Adjust button padding */
+    font-size: 17px; /* Adjust button text size */
+  }
+  .banner {
+    padding: 25px; /* Adjust banner padding */
+  }
+}
+
+/* For devices with a maximum width of 2560px */
+@media (max-width: 2560px) {
+  body {
+    font-size: 18px; /* Further increase font size */
+  }
+  .cta-button {
+    padding: 18px 36px; /* Adjust button padding */
+    font-size: 20px; /* Adjust button text size */
+  }
+  .banner {
+    padding: 40px; /* Adjust banner padding */
+  }
+}

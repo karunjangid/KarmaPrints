@@ -1,0 +1,243 @@
+.images{
+    display: flex;
+    width: 98vw;
+}
+.img1{
+    height: 60vh;
+}
+.img2{
+    height: 60vh;
+}
+.img1 img{
+    height: 60vh;
+    width: 49.6vw;
+}
+.img2 img{
+    height: 60vh;
+    width: 49vw;
+}
+.img1 .card-overlay {
+    top: -70%;
+    left: 4%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.656);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 40vh;
+}
+.img2 .card-overlay {
+    top: -80%;
+    left: 10%;
+    position: relative;
+    background-color: rgba(251, 251, 251, 0.9);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 40vh; 
+}
+.card-overlay button{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card-overlay button:hover{
+    color: rgb(255, 255, 255);
+}
+.card-overlay:hover{
+    padding: 16px 16px 16px 16px;
+}
+.categories{
+    margin: 10px;
+    display: flex;
+    gap: 50px;
+}
+.popularprojects{
+    margin: 10px;
+    display: flex;
+    gap: 50px; 
+}
+
+.product{
+    display: flex;
+    width: 13vw;
+    flex-direction: column;
+    text-align: center;
+}
+.product p{
+    font-size: 9px;
+    position: relative;
+    top: 40px;
+    right: 0px;
+    background-color: rgb(255, 72, 0);
+    width: 10vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 0px 0px 30px 0px;
+}
+.product p:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.product img{
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.heading{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 3.5rem;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.about{
+    width: 98vw;
+    display: flex;
+}
+.sec1{
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 100px;
+}
+.sec2{
+    width: 49vw;
+}
+.footer{
+    height: 50vh;
+    width: 98vw;
+    margin-top: 10vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+.footer1{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer1 img{
+    height: 10vh;
+}
+.footer2{
+    width: 20vw;
+    margin-top: 10vh;
+    list-style: none;
+}
+.footer3{
+    width: 20vw;
+    margin-top: 10vh;
+    list-style: none;
+}
+.footer4{
+    width: 20vw;
+    margin-top: 10vh;
+    list-style: none;
+}
+.footer ul:hover{
+ color: blue;
+ cursor: pointer;
+}
+
+.downfooter{
+    width: 98vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* For devices with max-width 320px */
+@media (max-width: 320px) {
+    .heading {
+        font-size: 2rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .product {
+        width: 80%;
+    }
+    .product img {
+        height: 15vh;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* For devices with max-width 375px */
+@media (max-width: 375px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+    .product {
+        width: 70%;
+    }
+    .product img {
+        height: 18vh;
+    }
+}
+
+/* For devices with max-width 425px */
+@media (max-width: 425px) {
+    .heading {
+        font-size: 2.8rem;
+    }
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec1, .sec2 {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* For devices with max-width 768px */
+@media (max-width: 768px) {
+    .images {
+        flex-direction: column;
+    }
+    .img1, .img2 {
+        height: auto;
+    }
+    .img1 img, .img2 img {
+        width: 100%;
+    }
+    .footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+/* For devices with max-width 2560px */
+@media (max-width: 2560px) {
+    .heading {
+        font-size: 4rem;
+    }
+    .product {
+        width: 15%;
+    }
+}

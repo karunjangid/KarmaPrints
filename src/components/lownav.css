@@ -1,0 +1,130 @@
+.hanger{
+    width: 98vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.hanger p{
+  font-size: 1rem;
+}
+.item{
+    height: 50px;
+    cursor: pointer;
+}
+.item:hover{
+    color: #ec0c8c;
+    border-bottom: solid #ec0c8c 1px;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: beige;
+    width: 98.6vw;
+}
+  
+  .carousel-button {
+    color: aliceblue;
+    background-color: red;
+    height: 60px;
+    width: 260px;
+    font-size: 2rem;
+    border: none;
+  }
+  
+  .carousel-text {
+    font-size: 18px;
+    padding: 0 20px; 
+    text-align: center; 
+  }
+/* For Extra Small Devices (Mobile: 320px) */
+@media (min-width: 320) {
+  .hanger {
+      flex-direction: row;
+      text-align: left;
+      width: 108vw;
+  }
+  .carousel {
+      flex-direction: column; /* Stack carousel items vertically */
+      align-items: flex-start; /* Align items to the start */
+  }
+  .carousel-button {
+      width: 100%; /* Full width button */
+      font-size: 1.5rem; /* Smaller font size */
+  }
+  .carousel-text {
+      font-size: 14px; /* Smaller text size */
+      padding: 10px; /* Reduced padding */
+  }
+}
+
+/* For Small Devices (Mobile: 375px) */
+@media (max-width: 375px) {
+  .hanger {
+      flex-direction: column; /* Stack items vertically */
+  }
+  .carousel-button {
+      width: 100%; /* Full width button */
+      font-size: 1.6rem; /* Slightly larger font size */
+  }
+}
+
+/* For Medium Devices (Mobile: 425px) */
+@media (max-width: 425px) {
+  .hanger {
+      flex-direction: column; /* Stack items vertically */
+  }
+  .carousel-button {
+      width: 100%; /* Full width button */
+      font-size: 1.7rem; /* Adjust font size */
+  }
+}
+
+/* For Tablets (768px) */
+@media (max-width: 768px) {
+  .hanger {
+      flex-direction: row; /* Keep items in a row */
+      justify-content: space-between; /* Space items evenly */
+  }
+  .carousel {
+      flex-direction: row; /* Keep carousel items in a row */
+      justify-content: center; /* Center items */
+  }
+  .carousel-button {
+      width: 80%; /* Slightly reduced width */
+      font-size: 1.8rem; /* Adjust font size */
+  }
+  .carousel-text {
+      font-size: 16px; /* Adjust text size */
+      padding: 15px; /* Adjust padding */
+  }
+}
+
+/* For Laptops (1024px) */
+@media (max-width: 1024px) {
+  .hanger {
+    
+  }
+  .carousel-button {
+      width: 250px; /* Fixed width for buttons */
+      font-size: 1.9rem; /* Adjust font size */
+  }
+}
+
+/* For Desktops (1440px) */
+@media (max-width: 1440px) {
+  .hanger {
+      width: 100%; /* Full width for larger screens */
+  }
+  .carousel-button {
+      width: 300px; /* Fixed width for buttons */
+      font-size: 2rem; /* Larger font size */
+  }
+  .carousel-text {
+      font-size: 18px; /* Adjust text size */
+      padding: 20px; /* Increased padding */
+  }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Business Card",
+        "image": "https://gkmockups.com/wp-content/uploads/2019/05/BusCard_Ort_Animation.gif",
+        "description": "High-quality business cards to make a lasting impression."
+    },
+    {
+        "id": 2,
+        "name": "Custom Tumbler",
+        "image": "https://culturestudio.net/wp-content/uploads/2024/01/tumbler.gif",
+        "description": "Personalized tumblers for your drinks on the go."
+    },
+    {
+        "id": 3,
+        "name": "Photo Mug",
+        "image": "https://www.bing.com/th/id/OGC.03176d4fc68a31bb678f95595d4bd1b6?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fuya2uJGw62fqE%2fgiphy.gif&ehk=zIRujaxDqF27Xn1KA1f6%2bwNxeGNKj45Kz0QC6bcARhY%3d",
+        "description": "Custom photo mugs to cherish your memories."
+    },
+    {
+        "id": 4,
+        "name": "Customized T-Shirt",
+        "image": "https://www.bing.com/th/id/OGC.641291e5e72df17fa1ed9c5dfd3dbdb8?pid=1.7&rurl=https%3a%2f%2fcdn.dribbble.com%2fusers%2f97383%2fscreenshots%2f1344461%2fmedia%2f1185bc49671b01077678f8b71a8024b7.gif&ehk=IZlyv7WJXggrynsL9fQA2JoGiDQYy4NEiMS8VNd9J6c%3d",
+        "description": "Create your own design on a comfortable t-shirt."
+    },
+    {
+        "id": 5,
+        "name": "Promotional Poster",
+        "image": "https://www.bing.com/th/id/OGC.0e0c574e53afdad3cb72fa949ef15798?pid=1.7&rurl=https%3a%2f%2fmymodernmet.com%2fwp%2fwp-content%2fuploads%2farchive%2fBOh6oQDtYH7kxv9Ay1Nq_animatedposter8.gif&ehk=T2g7DyCtYpTAqxUTzx8bEJzMk6G4k0mJKJRs4wFYjDk%3d",
+        "description": "Eye-catching posters for your marketing needs."
+    }
+]

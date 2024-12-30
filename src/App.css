@@ -1,0 +1,90 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* For devices with a maximum width of 320px */
+@media (max-width: 320px) {
+  .logo {
+    height: 4em; /* Adjust logo size */
+    padding: 1em; /* Adjust padding */
+  }
+  .card {
+    padding: 1em; /* Adjust card padding */
+  }
+}
+
+/* For devices with a maximum width of 375px */
+@media (max-width: 375px) {
+  .logo {
+    height: 5em; /* Adjust logo size */
+    padding: 1.2em; /* Adjust padding */
+  }
+  .card {
+    padding: 1.5em; /* Adjust card padding */
+  }
+}
+
+/* For devices with a maximum width of 425px */
+@media (max-width: 425px) {
+  .logo {
+    height: 5.5em; /* Adjust logo size */
+    padding: 1.3em; /* Adjust padding */
+  }
+  .card {
+    padding: 1.8em; /* Adjust card padding */
+  }
+}
+
+/* For devices with a maximum width of 768px */
+@media (max-width: 768px) {
+  .logo {
+    height: 6em; /* Maintain logo size */
+    padding: 1.5em; /* Maintain padding */
+  }
+  .card {
+    padding: 2em; /* Maintain card padding */
+  }
+}
+
+/* For devices with a maximum width of 2560px */
+@media (max-width: 2560px) {
+  .logo {
+    height: 8em; /* Further increase logo size */
+    padding: 1.5em; /* Maintain padding */
+  }
+  .card {
+    padding: 3.5em; /* Further increase card padding */
+  }
+}
