@@ -44,23 +44,21 @@ a:hover {
 }
 
 /* For devices with a maximum width of 320px */
-@media (max-width: 320px) {
+@media (max-width: 525px) {
   .header{
     display: flex;
     flex-direction: column;
     height: 10vh;
-    width: 81vw;
-    position: relative;
+    width: 85vw;
   }
   .header .logo img {
       height: 27px;
-      position: relative;
   }
   .header .navul li{
       font-size: 6px;
       margin: 15px;
       position: relative;
-      right: 25px;
+      right: 35px;
       bottom: 20px;
   }
   .icons{
@@ -68,125 +66,5 @@ a:hover {
   }
   nav ul li {
       margin: 5px 0;
-  }
-}
-
-/* For devices with a maximum width of 375px */
-@media (max-width: 375px) {
-  .header{
-    display: flex;
-    flex-direction: column;
-  }
-  .header .logo img {
-      height: 17px;
-      position: relative;
-  }
-  .header .navul li{
-      font-size: 6px;
-      margin: 15px;
-      position: relative;
-      right: 25px;
-      bottom: 20px;
-  }
-  .icons{
-    font-size: 0.8rem;
-  }
-  nav ul li {
-      margin: 5px 0;
-  }
-}
-
-/* For devices with a maximum width of 425px */
-@media (max-width: 425px) {
-  header {
-      flex-direction: column;
-      padding: 20px;
-  }
-  .logo img {
-      height: 70px;
-  }
-  .navul {
-      flex-direction: column;
-      width: 100%;
-  }
-  nav ul li {
-      margin: 10px 0;
-  }
-}
-
-/* For devices with a maximum width of 768px */
-@media (max-width: 768px) {
-  header {
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 25px;
-      width: fit-content;
-  }
-  .logo img {
-      height: 70px;
-  }
-  .navul {
-      flex-direction: row;
-      width: auto;
-  }
-  nav ul li {
-      margin: 0 15px;
-  }
-}
-
-/* For devices with a maximum width of 1024px */
-@media (max-width: 1024px) {
-  header {
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 25px;
-      width: max-content;
-  }
-  .logo img {
-      height: 70px;
-  }
-  .navul {
-      flex-direction: row;
-      width: auto;
-  }
-  nav ul li {
-      margin: 0 15px;
-  }
-}
-
-/* For devices with a maximum width of 1440px */
-@media (max-width: 1440px) {
-  header {
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 30px;
-  }
-  .logo img {
-      height: 80px;
-  }
-  .navul {
-      flex-direction: row;
-      width: auto;
-  }
-  nav ul li {
-      margin: 0 20px;
-  }
-}
-
-/* For devices with a maximum width of 2560px */
-@media (max-width: 2560px) {
-  header {
-      flex-direction: row;
-      padding: 40px;
-  }
-  .logo img {
-      height: 100px;
-  }
-  .navul {
-      flex-direction: row;
-      width: auto;
-  }
-  nav ul li {
-      margin: 0 30px;
   }
 }
