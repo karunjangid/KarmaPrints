@@ -4,6 +4,7 @@ import { IoMdContacts } from "react-icons/io";
 import { FaProjectDiagram } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import { BsCartCheck } from "react-icons/bs";
+import logo from "../assets/logo.png"
 
 import "./header.css"
 
@@ -11,7 +12,7 @@ const Header = () => {
   return (
     <header className='header'>
       <div className="logo">
-        <img src="src\assets\logo.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
       <nav className='nav'>
         <ul className='navul'>
