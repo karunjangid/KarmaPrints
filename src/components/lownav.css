@@ -41,7 +41,7 @@
     text-align: center; 
   }
 /* For Extra Small Devices (Mobile: 320px) */
-@media (min-width: 320) {
+@media (min-width: 525) {
   .hanger {
       flex-direction: row;
       text-align: left;
@@ -58,73 +58,5 @@
   .carousel-text {
       font-size: 14px; /* Smaller text size */
       padding: 10px; /* Reduced padding */
-  }
-}
-
-/* For Small Devices (Mobile: 375px) */
-@media (max-width: 375px) {
-  .hanger {
-      flex-direction: column; /* Stack items vertically */
-  }
-  .carousel-button {
-      width: 100%; /* Full width button */
-      font-size: 1.6rem; /* Slightly larger font size */
-  }
-}
-
-/* For Medium Devices (Mobile: 425px) */
-@media (max-width: 425px) {
-  .hanger {
-      flex-direction: column; /* Stack items vertically */
-  }
-  .carousel-button {
-      width: 100%; /* Full width button */
-      font-size: 1.7rem; /* Adjust font size */
-  }
-}
-
-/* For Tablets (768px) */
-@media (max-width: 768px) {
-  .hanger {
-      flex-direction: row; /* Keep items in a row */
-      justify-content: space-between; /* Space items evenly */
-  }
-  .carousel {
-      flex-direction: row; /* Keep carousel items in a row */
-      justify-content: center; /* Center items */
-  }
-  .carousel-button {
-      width: 80%; /* Slightly reduced width */
-      font-size: 1.8rem; /* Adjust font size */
-  }
-  .carousel-text {
-      font-size: 16px; /* Adjust text size */
-      padding: 15px; /* Adjust padding */
-  }
-}
-
-/* For Laptops (1024px) */
-@media (max-width: 1024px) {
-  .hanger {
-    
-  }
-  .carousel-button {
-      width: 250px; /* Fixed width for buttons */
-      font-size: 1.9rem; /* Adjust font size */
-  }
-}
-
-/* For Desktops (1440px) */
-@media (max-width: 1440px) {
-  .hanger {
-      width: 100%; /* Full width for larger screens */
-  }
-  .carousel-button {
-      width: 300px; /* Fixed width for buttons */
-      font-size: 2rem; /* Larger font size */
-  }
-  .carousel-text {
-      font-size: 18px; /* Adjust text size */
-      padding: 20px; /* Increased padding */
   }
 }
