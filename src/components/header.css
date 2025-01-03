@@ -1,87 +1,82 @@
-.header {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  color: rgb(0, 0, 0);
-  padding: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
 
-header .logo img {
+.nav{
+  display: flex;
+  background-color: white;
+  width: 95vw;
+  height: 14vh;
+  justify-content: space-between;
+  padding: 30px;
+}
+.nav img {
   height: 70px;
 }
-.navul {
+
+.navul{
   list-style: none;
   display: flex;
-  width: 60vw;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
 }
 
-a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
-
-a:hover {
+li:hover {
   color: royalblue;
 }
-
-.li {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  font-size: 0.9rem;
-}
-
-.icons {
-  height: 30px;
-  font-size: 1.5rem;
-}
-
 /* For devices with a maximum width of 320px */
 @media (max-width: 525px) {
-  .header{
+  .nav{
     display: flex;
     flex-direction: column;
-    height: 10vh;
+    height: 20vh;
     width: 85vw;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
   }
-  .header .logo img {
-      height: 27px;
+  .nav img {
+      height: 47px;
   }
-  .header .navul li{
-      font-size: 6px;
-      margin: 15px;
+  .navul{
+      height: 30vh;
+      width: 100vw;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
       position: relative;
-      right: 55px;
-      bottom: 20px;
+      right: 30px;
+      top: 20px;
   }
-  .icons{
-    font-size: 1.3rem;
+  .navul li{
+    height: 10vw;
   }
-  nav ul li {
-      margin: 5px 0;
+  .navul li:hover{
+    color: royalblue;
   }
 }
-
 @media (max-width: 1024px) {
-  .header{
+  .nav{
+    display: flex;
+    background-color: white;
+    width:92.8vw;
+    height: 14vh;
+    justify-content: space-between;
+    padding: 30px;
+    font-size:0.8rem;
+  }
+  .nav img {
+    height: 70px;
+  }
+  
+  .navul{
+    list-style: none;
     display: flex;
     flex-direction: row;
-    height: 10vh;
-    width: auto;
+    justify-content: space-between;
+    width: 500px;
   }
-  .header .logo img {
-      height: 57px;
-  }
-  .header .navul li{
-      font-size: 6px;
-      margin: 15px;
-      position: relative;
-      right: 5px;
-  }
-  .icons{
-    font-size: 1rem;
+  
+  li:hover {
+    color: royalblue
   }
 }

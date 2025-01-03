@@ -22,17 +22,14 @@ const MainPage = () => {
               <h2>Premium quality at best Price</h2>
               <p>Calendars, Notebooks and Diaries starting at Rs 160</p>
               <button style={{margin:"5px"}}>Calendars</button>
-              <button style={{margin:"5px"}}>Notebooks</button>
-              <br />
-              <button style={{margin:"5px"}}>Diaries</button>
             </div>
         </div>
     </div>
-    <h2>Explore All Categories</h2>
-    <div className="categories">
+    <h2 className='taghead'>Explore All Categories</h2>
+    <div className="popularprojects">
         <div className="product">
             <img src="https://gkmockups.com/wp-content/uploads/2019/05/BusCard_Ort_Animation.gif" alt="" />
-            <h4>Visiting Card & NFS Cards</h4>
+            <h4>NFS Cards</h4>
         </div>
         <div className="product">
             <img src="https://culturestudio.net/wp-content/uploads/2024/01/tumbler.gif" alt="" />
@@ -48,13 +45,13 @@ const MainPage = () => {
         </div>
         <div className="product">
             <img src="https://www.bing.com/th/id/OGC.0e0c574e53afdad3cb72fa949ef15798?pid=1.7&rurl=https%3a%2f%2fmymodernmet.com%2fwp%2fwp-content%2fuploads%2farchive%2fBOh6oQDtYH7kxv9Ay1Nq_animatedposter8.gif&ehk=T2g7DyCtYpTAqxUTzx8bEJzMk6G4k0mJKJRs4wFYjDk%3d" alt="" />
-            <h4>Signs,Posters & Marketing Material</h4>
+            <h4>Signs& Posters</h4>
         </div>
         <div className="product">
             <img src="https://www.bing.com/th/id/OGC.70e1d1555be3bca1b32c63282427f9d2?pid=1.7&rurl=https%3a%2f%2fmoein.video%2fwp-content%2fuploads%2f2022%2f10%2farrow-Free-Animated-Icon-GIF-1080p-after-effects.gif&ehk=UzKw%2fsUsbcZR9HvZGk0Pz3NKiBr53kdQ3jIyVeKZTUE%3d" alt="" />
         </div>
     </div>
-    <h2>Popular Projects</h2>
+    <h2 className='taghead'>Popular Projects</h2>
     <div className="popularprojects">
     <div className="product">
             <img src="https://www.bing.com/th/id/OGC.e630a131b454d4b19be349c7c1ebdade?pid=1.7&rurl=https%3a%2f%2fmedia.tenor.com%2fxz8LquLaMO8AAAAC%2fdrew-hoodie.gif&ehk=iOXSY3y%2fe917gVkE6XmBZEde9YHF7WU0ar57%2fSKURXk%3d" alt="" />
@@ -62,11 +59,11 @@ const MainPage = () => {
     </div>        
     <div className="product">
             <img src="https://www.bing.com/th/id/OGC.9e43f8ea2f74444625c9aead7447ee48?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2f59%2fc9%2fff%2f59c9ffe1102d3ac8c67d2c3d271b5bdf.gif&ehk=Bv1flxyJCIYvy4F2a94LZzOeI%2bSYMZoooOH5RqGyyeQ%3d" alt="" />
-            <h4>Men's Polo Tshirt</h4>
+            <h4>Polo Tshirt</h4>
     </div>        
     <div className="product">
             <img src="https://www.bing.com/th/id/OGC.b588cd97d5b381629c99f25cd5935327?pid=1.7&rurl=https%3a%2f%2fmedia1.tenor.com%2fm%2foKqsDZSEk2gAAAAC%2fbranded-notebooks-custom-notebooks.gif&ehk=vk38yNKj%2bDml8bGRiF6jnw1QVnXODTbbKp9UgHo0gGo%3d" alt="" />
-            <h4>Personalized Notebooks</h4>
+            <h4>Notebooks</h4>
     </div>        
     <div className="product">
             <img src="https://www.bing.com/th/id/OGC.a54774fd66de9ec4bbd0aae2caf61e27?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fIgLdmV6WzExAwRNR03%2fgiphy.gif&ehk=016IT6i%2b8WMw7szBQpr7FbAsimAjUgRtvm%2bDHSH2B%2fY%3d" alt="" />
@@ -80,7 +77,7 @@ const MainPage = () => {
             <img src="https://www.bing.com/th/id/OGC.70e1d1555be3bca1b32c63282427f9d2?pid=1.7&rurl=https%3a%2f%2fmoein.video%2fwp-content%2fuploads%2f2022%2f10%2farrow-Free-Animated-Icon-GIF-1080p-after-effects.gif&ehk=UzKw%2fsUsbcZR9HvZGk0Pz3NKiBr53kdQ3jIyVeKZTUE%3d" alt="" />
         </div>    
     </div>
-    <h2>Branded Products</h2>
+    <h2 className='taghead'>Branded Products</h2>
     <div className="popularprojects">
     <div className="product">
             <img src="https://www.bing.com/th/id/OGC.7aff2d009bf227ac35ce5a899260b6e1?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fl2JhwdnrGvfnoXrzi%2fgiphy.gif&ehk=%2bVmOTmyVghHDgujb%2bph7t9CQT8%2bBZGdpYGIYyNOmGY4%3d" alt="" />
@@ -88,7 +85,7 @@ const MainPage = () => {
     </div>        
     <div className="product">
             <img src="https://5.imimg.com/data5/SELLER/Default/2023/12/373161127/LZ/IN/CI/20623258/premium-quality-7-in-1-combo-gift-new-joineee-kit-employee-joinee-kit-event-gift-1000x1000.jpeg" alt="" />
-            <h4>Company New Joinee Catalogue</h4>
+            <h4>Company Catalogue</h4>
     </div>        
     <div className="product">
             <img src="https://www.bing.com/th/id/OGC.ed6b9d727fab5109d490a1c1597f01a6?pid=1.7&rurl=https%3a%2f%2fmedia3.giphy.com%2fmedia%2f3ohzdM2ijZbCKrX6wg%2fgiphy.gif&ehk=Ah0tibdwm4ceNhr%2bpOWPc81XQ1B2sBiiPlognD4yX6o%3d" alt="" />
@@ -106,7 +103,7 @@ const MainPage = () => {
             <img src="https://www.bing.com/th/id/OGC.70e1d1555be3bca1b32c63282427f9d2?pid=1.7&rurl=https%3a%2f%2fmoein.video%2fwp-content%2fuploads%2f2022%2f10%2farrow-Free-Animated-Icon-GIF-1080p-after-effects.gif&ehk=UzKw%2fsUsbcZR9HvZGk0Pz3NKiBr53kdQ3jIyVeKZTUE%3d" alt="" />
         </div>    
     </div>
-    <h2>Trending Products</h2>
+    <h2 className='taghead'>Trending Products</h2>
     <div className="popularprojects">
     <div className="product">
             <img src="https://th.bing.com/th/id/OIP.qHAhMH_1A_lWOL9WVTxmpwHaHa?w=216&h=216&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" />
@@ -114,15 +111,15 @@ const MainPage = () => {
     </div>        
     <div className="product">
             <img src="https://www.bing.com/th/id/OGC.a84ba0d324a81c09c00f3dd7bc0313da?pid=1.7&rurl=https%3a%2f%2fmedia1.tenor.com%2fimages%2fa84ba0d324a81c09c00f3dd7bc0313da%2ftenor.gif%3fitemid%3d17245404&ehk=oGamLQrbWMbWoEOUilQxeXSl9nhJh9ZDtqMUSfG5ed4%3d" alt="" />
-            <h4>Customized @ADIDAS Hoodies</h4>
+            <h4>Customized Hoodies</h4>
     </div>        
     <div className="product">
             <img src="https://th.bing.com/th/id/OIP.xQ4USgpGjl2kZywYvvuvDgHaJc?rs=1&pid=ImgDetMain" alt="" />
-            <h4>Personalized Phone Cases</h4>
+            <h4>Phone Cases</h4>
     </div>        
     <div className="product">
             <img src="https://th.bing.com/th/id/OIP.fOvPEarR0tbFQsz3sRWnTAAAAA?rs=1&pid=ImgDetMain" alt="" />
-            <h4>Perfect Gift For your Partner</h4>
+            <h4>Partner Store</h4>
     </div>        
     <div className="product">
             <img src="https://i.etsystatic.com/17038291/r/il/8c203f/2390952528/il_fullxfull.2390952528_5y68.jpg" alt="" />
@@ -147,15 +144,12 @@ const MainPage = () => {
               <h2>Make Your Marriage Memorable with KarmaPrints</h2>
               <p>Starts From - 1000/-</p>
               <button style={{margin:"5px"}}>Photo Albums</button>
-              <br />
-              <button style={{margin:"5px"}}>LayFlat Albums</button>
-              <br />
             </div>
         </div>
     </div>
 
 
-    <h2>Explore More</h2>
+    <h2 className='taghead'>Explore More</h2>
     <div className="popularprojects">
     <div className="product">
             <p>Buy 4 @ Rs 260/-</p>
@@ -188,12 +182,12 @@ const MainPage = () => {
         </div>    
     </div>
 
-    <h2>New Arrivals</h2>
+    <h2 className='taghead'>New Arrivals</h2>
     <div className="popularprojects">
     <div className="product">
     <p>Buy 100 @ Rs 250/-</p>
             <img src="https://images.template.net/wp-content/uploads/2017/01/06102139/Elegant-Leaf-Business-Card.jpg" alt="" />
-            <h4>Leaf Visiting Cards</h4>
+            <h4>Leaf Cards</h4>
     </div>        
     <div className="product">
     <p>Buy 1500 @ Rs 1500/-</p>

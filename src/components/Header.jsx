@@ -1,28 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { IoMdContacts } from "react-icons/io";
-import { FaProjectDiagram } from "react-icons/fa";
-import { FaUser } from "react-icons/fa";
-import { BsCartCheck } from "react-icons/bs";
 import logo from "../assets/logo.png"
 
 import "./header.css"
 
 const Header = () => {
   return (
-    <header className='header'>
-      <div className="logo">
-        <img src={logo} alt="Logo" />
-      </div>
       <nav className='nav'>
-        <ul className='navul'>
-          <li><Link to="/" className='li'><IoMdContacts className='icons'/>Resolve Your issue <br />+918619448841</Link></li>
-          <li><Link to="/features" className='li'><FaProjectDiagram className='icons'/>My Projects</Link></li>
-          <li><Link to="/pricing" className='li'><FaUser className='icons'/>Sign In</Link></li>
-          <li><Link to="/contact" className='li'><BsCartCheck className='icons'/>Cart</Link></li>
+        <img src={logo} alt="Logo" />
+        <ul className="navul">
+          <li>My Projects</li>
+          <li>Services</li>
+          <li>Cart</li>
         </ul>
       </nav>
-    </header>
   );
 };
 

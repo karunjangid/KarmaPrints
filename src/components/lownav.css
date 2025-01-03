@@ -1,5 +1,5 @@
 .hanger{
-    width: 98vw;
+    width: 99vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,23 +40,54 @@
     padding: 0 20px; 
     text-align: center; 
   }
-/* For Extra Small Devices (Mobile: 320px) */
-@media (min-width: 525) {
+@media (max-width: 525px) {
   .hanger {
-      flex-direction: row;
-      text-align: left;
-      width: 108vw;
+    width: 1;
+    height: 20vh;
+    overflow: hidden;
+  }
+  .hanger .item{
+    padding: 14px;
+  }
+  .hanger p{
+    font-size: 0.6rem;
   }
   .carousel {
-      flex-direction: column; /* Stack carousel items vertically */
-      align-items: flex-start; /* Align items to the start */
+    height: 10vh;
   }
   .carousel-button {
-      width: 100%; /* Full width button */
-      font-size: 1.5rem; /* Smaller font size */
+      width: 10%;
+      font-size: 1rem;
+      height: 100%;
   }
   .carousel-text {
-      font-size: 14px; /* Smaller text size */
-      padding: 10px; /* Reduced padding */
+      font-size: 10px;
+      padding: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .hanger {
+    width: 1;
+    height: 20vh;
+    width: 98.7vw;
+    overflow: hidden;
+  }
+  .hanger .item{
+    padding: 14px;
+  }
+  .hanger p{
+    font-size: 0.6rem;
+  }
+  .carousel {
+    height: 10vh;
+  }
+  .carousel-button {
+      width: 10%;
+      font-size: 1rem;
+      height: 100%;
+  }
+  .carousel-text {
+      font-size: 10px;
+      padding: 10px;
   }
 }
